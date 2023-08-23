@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
-<base name="HDI_HDI_4DWP_PDFA" uuid="2D4F6103DC084198BFC0283C03D0A0B2" collation_locale="en">
+<base name="HDI_4DWP_ExportAsPDFA" uuid="2D4F6103DC084198BFC0283C03D0A0B2" collation_locale="en">
 	<schema name="DEFAULT_SCHEMA"/>
 	<table name="INFO" uuid="107A367EBCC346259FD971E8FC1097DA" id="1">
 		<field name="ID" uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B" type="4" unique="true" autosequence="true" not_null="true" id="1">

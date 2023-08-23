@@ -9,3 +9,6 @@ End if
 $options:={}
 //$options:={wk pdfa: wk pdfa3}
 WP EXPORT DOCUMENT:C1337(WParea; $path; wk pdf:K81:315; $options)
+
+SHOW ON DISK:C922($path)
+OPEN URL:C673($path)
