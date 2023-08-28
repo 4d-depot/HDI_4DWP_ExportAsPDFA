@@ -9,7 +9,7 @@ Case of
 		
 		WParea:=ds:C1482.INFO.all().first().wp
 		
-		Form:C1466.trace:=True:C214
+		Form:C1466.trace:=False:C215
 		
 	: (Form event code:C388=On Page Change:K2:54)
 		
