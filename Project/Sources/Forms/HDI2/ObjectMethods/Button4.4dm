@@ -1,1 +1,1 @@
-OPEN URL:C673("https://www.pdfforge.org/online/en/validate-pdfa")
+OPEN URL:C673("https://demo.verapdf.org")

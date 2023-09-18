@@ -2,7 +2,7 @@ var $path : Text
 var $options : Object
 
 
-$path:=File:C1566(Folder:C1567(fk database folder:K87:14).platformPath+"samplePDFA-3.pdf"; fk platform path:K87:2).platformPath
+$path:=Folder:C1567(fk database folder:K87:14).platformPath+"samplePDFA-3.pdf"
 $options:={}
 $options[wk pdfa version:K81:375]:=wk pdfa3:K81:377
 

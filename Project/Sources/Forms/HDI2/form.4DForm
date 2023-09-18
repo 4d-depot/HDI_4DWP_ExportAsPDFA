@@ -146,26 +146,12 @@
 					"enterable": false,
 					"focusable": false
 				},
-				"Button2": {
-					"type": "button",
-					"text": "Export as PDF",
-					"top": 580,
-					"left": 60,
-					"width": 150,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button2.4dm",
-					"sizingY": "move",
-					"focusable": false
-				},
 				"Check Box": {
 					"type": "checkbox",
 					"text": "Trace code",
 					"top": 580,
-					"left": 734,
-					"width": 126,
+					"left": 754,
+					"width": 106,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -177,8 +163,8 @@
 				},
 				"Image statique1": {
 					"type": "picture",
-					"top": 505,
-					"left": 283,
+					"top": 510,
+					"left": 255,
 					"width": 64,
 					"height": 64,
 					"picture": "/RESOURCES/Arrows/ArrowBottomLeft.png",
@@ -188,8 +174,8 @@
 					"type": "button",
 					"text": "Export as PDF/A-2",
 					"top": 580,
-					"left": 220,
-					"width": 150,
+					"left": 110,
+					"width": 160,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -202,8 +188,8 @@
 					"type": "button",
 					"text": "Export as PDF/A-3",
 					"top": 580,
-					"left": 380,
-					"width": 150,
+					"left": 280,
+					"width": 160,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -215,8 +201,8 @@
 				"Line1": {
 					"type": "line",
 					"top": 570,
-					"left": 60,
-					"width": 470,
+					"left": 110,
+					"width": 330,
 					"height": 0,
 					"strokeWidth": 2,
 					"stroke": "#3EA9F5",
@@ -224,10 +210,10 @@
 				},
 				"Button4": {
 					"type": "button",
-					"text": "Validator (web)",
+					"text": "Open Web validator",
 					"top": 580,
-					"left": 564,
-					"width": 150,
+					"left": 574,
+					"width": 160,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -236,6 +222,65 @@
 					"sizingY": "move",
 					"focusable": false,
 					"sizingX": "move"
+				},
+				"Ovale": {
+					"type": "oval",
+					"top": 575,
+					"left": 62,
+					"width": 32,
+					"height": 32,
+					"strokeWidth": 3,
+					"stroke": "#3EA9F5",
+					"sizingY": "move"
+				},
+				"Texte2": {
+					"type": "text",
+					"text": "1",
+					"top": 579,
+					"left": 66,
+					"width": 24,
+					"height": 24,
+					"fontFamily": "Arial",
+					"fontSize": 20,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"stroke": "#3EA9F5",
+					"sizingY": "move"
+				},
+				"Ovale2": {
+					"type": "oval",
+					"top": 572,
+					"left": 532,
+					"width": 32,
+					"height": 32,
+					"strokeWidth": 3,
+					"stroke": "#3EA9F5",
+					"sizingY": "move",
+					"sizingX": "move"
+				},
+				"Texte4": {
+					"type": "text",
+					"text": "2",
+					"top": 576,
+					"left": 536,
+					"width": 24,
+					"height": 24,
+					"fontFamily": "Arial",
+					"fontSize": 20,
+					"fontWeight": "bold",
+					"textAlign": "center",
+					"stroke": "#3EA9F5",
+					"sizingY": "move",
+					"sizingX": "move"
+				},
+				"Image statique2": {
+					"type": "picture",
+					"top": 556,
+					"left": 460,
+					"width": 64,
+					"height": 64,
+					"picture": "/RESOURCES/Arrows/ArrowRight.png",
+					"sizingY": "move"
 				}
 			}
 		}
@@ -251,5 +296,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 266
+	"geometryStamp": 659
 }
